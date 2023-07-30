@@ -1,0 +1,22 @@
+/* Estilos para o container do formulário */
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; /* ou a cor desejada para o título */
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 16px; /* ou a quantidade desejada de espaço abaixo do título */
+}
+
+.container {
+  margin-bottom: 20px; /* ou a quantidade desejada de espaço abaixo do pet-form */
+}

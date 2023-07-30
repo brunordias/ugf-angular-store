@@ -1,0 +1,12 @@
+<div class="form-container" fxFlex>
+  <h2 class="title">Cadastrar Novo Pet</h2>
+  <form (ngSubmit)="onSubmit()">
+    <mat-form-field appearance="outline">
+      <mat-label>Nome do Pet</mat-label>
+      <input matInput [(ngModel)]="petName" name="petName" required>
+    </mat-form-field>
+    <button mat-raised-button color="primary" type="submit">Cadastrar Pet</button>
+    <p class="success-message" *ngIf="successMessage">{{ successMessage }}</p>
+    <p class="error-message" *ngIf="errorMessage">{{ errorMessage }}</p>
+  </form>
+</div>
