@@ -20,8 +20,8 @@
     </ng-container>
 
     <!-- Cabeçalho e linhas da tabela -->
-    <tr mat-header-row *matHeaderRowDef="['id', 'name', 'created_at']"></tr>
-    <tr mat-row *matRowDef="let row; columns: ['id', 'name', 'created_at']"></tr>
+    <tr mat-header-row *matHeaderRowDef="['name', 'id', 'created_at']"></tr>
+    <tr mat-row *matRowDef="let row; columns: ['name', 'id', 'created_at']"></tr>
   </table>
 </div>
 
